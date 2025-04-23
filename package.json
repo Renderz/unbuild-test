@@ -6,7 +6,8 @@
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub",
-    "test": "node ./index.js"
+    "test-cjs": "node ./index.cjs",
+    "test-mjs": "node ./index.mjs"
   },
   "exports": {
     "require": "./dist/index.cjs"
