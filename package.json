@@ -1,0 +1,20 @@
+{
+  "name": "unbuild-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "test": "node ./index.js"
+  },
+  "exports": {
+    "require": "./dist/index.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.15.9",
+  "devDependencies": {
+    "unbuild": "^3.5.0"
+  }
+}
